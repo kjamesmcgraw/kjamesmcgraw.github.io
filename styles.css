@@ -227,3 +227,10 @@ p { margin-top: 0; }
   .project-heading-line { align-items: flex-start; flex-direction: column; gap: .2rem; }
   .project-kicker { text-align: left; }
 }
+
+/* Research page title aligned with the publications heading */
+.research-page-title {
+  font-size: clamp(2.3rem, 4vw, 4.3rem);
+  line-height: 1.05;
+  letter-spacing: -.035em;
+}
