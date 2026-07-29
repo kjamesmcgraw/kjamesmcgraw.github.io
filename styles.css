@@ -211,3 +211,19 @@ p { margin-top: 0; }
   text-underline-offset: 4px;
 }
 .project-title a:hover { color: var(--red); }
+
+.project-heading-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.project-kicker {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  .project-heading-line { align-items: flex-start; flex-direction: column; gap: .2rem; }
+  .project-kicker { text-align: left; }
+}
